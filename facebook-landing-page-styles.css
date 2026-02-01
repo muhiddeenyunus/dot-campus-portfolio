@@ -1,0 +1,114 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Helvetica, Arial, sans-serif;
+    background-color: #f0f2f5; /* Light gray background */
+}
+
+.main-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    gap: 100px; /* Space between the text and form */
+}
+
+/* Text Container Styling */
+.text-container {
+    width: 500px;
+    margin-bottom: 100px;
+}
+
+.text-container img {
+    height: 106px;
+    margin-left: -28px;
+    margin-bottom: -28px;
+}
+
+.text-container h2 {
+    font-size: 28px;
+    font-weight: normal;
+    line-height: 32px;
+    color: #1c1e21;
+}
+
+/* Form Container Styling */
+.form-container {
+    background-color: #ffffff; /* White background */
+    display: flex;
+    flex-direction: column;
+    height: 350px;
+    width: 400px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1), 0 8px 16px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+    padding: 20px;
+}
+
+.form-container form {
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+}
+
+.form-container input {
+    height: 50px;
+    font-size: 17px;
+    padding: 0 16px;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+}
+
+.form-container input:focus {
+    outline: none;
+    border-color: #1877f2;
+}
+
+.login-btn {
+    height: 50px;
+    background-color: #1877f2; /* Facebook blue */
+    border: none;
+    border-radius: 6px;
+    font-size: 20px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.login-btn:hover {
+    background-color: #166fe5;
+}
+
+.form-container a {
+    color: #1877f2;
+    font-size: 14px;
+    text-decoration: none;
+    text-align: center;
+}
+
+.form-container a:hover {
+    text-decoration: underline;
+}
+
+hr {
+    border: none;
+    border-top: 1px solid #dadde1;
+    margin: 10px 0;
+}
+
+.create-btn {
+    height: 48px;
+    background-color: #42b72a; /* Facebook green */
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+    width: 60%; /* Adjust width to match original design */
+    align-self: center;
+}
+
+.create-btn:hover {
+    background-color: #36a420;
+}
